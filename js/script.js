@@ -68,3 +68,103 @@ let dia = prompt ("Ingrese un día").toLocaleLowerCase()
             break; 
     }
 */
+
+
+
+
+
+
+// While - ciclo por condicion. Asumimos que en algun momneto la reptición va a finalizar: si la comparación no se realiza adecuadamente podemes generar el llamado "bucle infinito"
+
+// crear el mensaje 1 vez. usamos alert
+/*
+alert ("Hola")
+*/
+
+// Bucle
+/*
+let nombre = prompt ("Ingrese su nombre")
+while (nombre != "a"){
+    alert ("Hola " + nombre)
+}
+*/
+
+// do while
+/*
+let nombre = prompt ("Ingrese su nombre")
+do {
+    alert ("Hola " + nombre) //ejecuta
+    nombre = prompt ("Ingrese otro nombre")
+} while (nombre != "a")
+*/
+
+
+/*
+let numero = 0;
+do {
+    numero = prompt ("Ingrese un numero")
+    console.log (numero);
+} while (parseInt(numero));
+*/
+
+
+/*
+num ++ //incremeta de a 1
+num + =1 // tambien se puede usar para + - * /
+*/
+
+// progreso que muestra todos los numeros del 1 al 10
+/*
+let num = 1
+while (num >= -10) {
+    alert (num)
+    num --
+}
+alert ("El número es mayor a 10")
+*/    
+
+
+let dia = prompt ("Ingrese un día").toLocaleLowerCase()
+switch (dia) {
+    case "lunes":
+        alert ("Podes ingresar")
+        break;
+    case "martes":
+        alert ("Podes ingresar") 
+        break;
+    case "miercoles":
+        alert ("Podes ingresar")
+        break;
+    case "jueves":
+        alert ("Podes ingresar")
+        break;
+    case "viernes":
+        alert ("Podes ingresar")
+        break;
+    case "sabado":
+        alert ("Bienvenido/a, buen fin de semana")
+        break;
+    case "domingo":
+        alert ("Bienvenido/a, buen fin de semana")
+        break;
+}
+
+
+
+let nombre = prompt ("Ingrese su nombre")
+while (nombre != "a") {
+    switch (nombre) {
+        default:
+            alert("Bienvenido " + nombre)
+            break;
+    }
+    alert("Que tengas una buena navegación")
+    break;
+}
+
+
+
+let edad = parseInt (prompt("Ingresa tu edad"));
+for (let num = 0 ; num >= 1; num++) {
+    alert ("En caso de error, presione de nuevo en aceptar")
+}
