@@ -168,3 +168,35 @@ let edad = parseInt (prompt("Ingresa tu edad"));
 for (let num = 0 ; num >= 1; num++) {
     alert ("En caso de error, presione de nuevo en aceptar")
 }
+
+
+function avisar (){
+    alert("Ahora se va a calcular el precio de serivicio con IVA")
+}
+avisar();
+
+/*
+function servicios (emailMarketing, communityManager, copyWriting, iva, operacion) {
+    switch (operacion){
+        case "*":
+            return emailMarketing * iva;
+            
+        case "*":
+            return communityManager * iva;
+            
+        case "*":
+            return copyWriting * iva;
+            
+    }
+}
+console.log(servicios(200, 500, 350, 1.21, "*"));
+
+function iva(emailMarketing, communityManager, copyWriting, iva) {
+    let resultado = emailMarketing * iva;
+    let resultado = communityManager * iva;
+    let resultado = copyWriting * iva;
+}
+console.log (resultado) ; */
+
+
+
