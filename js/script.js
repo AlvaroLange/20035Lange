@@ -199,4 +199,35 @@ function iva(emailMarketing, communityManager, copyWriting, iva) {
 console.log (resultado) ; */
 
 
+/*
+let cursos = ["Email marketing ", "Communtiny Manager ", "Copy Writing ", "Publicidad " ]
+let cursos = [];
+let cantidad = 4;
+do {
+    let entrada = prompt ("¿En que cursos estas insteresado/a?");
+    cursos.push(entrada.toLocaleUpperCase());
+    console.log(cursos.length);
+} while (cursos.lenght != cantidad)
+alert (cursos);
+*/
 
+
+function mostrar (){
+    alert("Ahora se van a mostrar las especializaciones dentro de la academia")
+}
+mostrar();
+
+const cursos = ["Email marketing ", "Communtiny Manager ", "Copy Writing ", "Publicidad "]
+alert (cursos)
+
+
+/*
+const servicios = [{ id: 1, producto: "Community manager"},
+                    { id: 2, producto: "Email marketing"},
+                    { id: 3, producto: "Publicidad"}];
+for (const producto of servicios) {
+    console.log (producto.id);
+    console.log (producto.servicios);
+}
+alert (servicios)
+*/
