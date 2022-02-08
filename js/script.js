@@ -231,3 +231,9 @@ for (const producto of servicios) {
 }
 alert (servicios)
 */
+
+
+
+
+let container = document.getElementById("contenedor")
+container.innerHTML = "<h3>¿Quieres ver las membresías?</h3>"
